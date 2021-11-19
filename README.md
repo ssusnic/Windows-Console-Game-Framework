@@ -148,8 +148,8 @@ if "%1"=="-s" (
 
 - this script compiles the source code of your game (MyGame.cpp) and makes its executable code (MyGame.exe)
 - if the compilation is successfull, the game starts
-- to build the game dynamically enter **"make -d"** command or just **"make"**
-- to build the game statically enter **"make -s"** command  
+- to build the game dynamically enter **"make -d"** or just **"make"** at the command prompt
+- to build the game statically enter **"make -s"** at the command prompt  
 
 3. **run.bat**
 ```shell
