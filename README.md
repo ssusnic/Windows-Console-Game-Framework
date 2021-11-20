@@ -17,8 +17,8 @@ So, you should easily find out how to use them for making your own console games
 
 In addition, you can always check out examples published in this repo to learn more details about implementing games based on this framework.
 
-The video tutorials on this topic are also available on my Youtube channel:
-https://www.youtube.com/channel/UCj51CLgyTsILVHbGL6wvQeg
+The video tutorials on this topic are also available on my Youtube channel:  
+https://www.youtube.com/ssusnic
 
 
 ## Usage
@@ -27,7 +27,7 @@ https://www.youtube.com/channel/UCj51CLgyTsILVHbGL6wvQeg
 3. define a new **Game class** which inherits the **Consoler class** and then:  
 	a. override the **Setup()** method to set up game and load sprites/sounds  
 	b. override the **Update()** method to update the game logic  
-	c. override the **ShowPauseInfo()** method to show your custom pause message when the game is paused  
+	c. override the **ShowPauseInfo()** method to handle the game when it is paused  
 4. inside the **main program**:  
 	a. initialize a new game object  
 	b. run the main game loop  
@@ -157,3 +157,18 @@ MyGame.exe
 ```
 
 - this script runs the executable code of your game (MyGame.exe)
+
+
+## License notice
+Copyright (C) 2021 Ask For Game Task
+
+All programs in this repository are protected by GNU General Public License version 3.  
+If you use them, you must attribute me.
+
+Each program in this repository is free software: 
+you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+Each program in this repository is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+
+See the LICENSE file for more details on the GNU General Public License.
+
