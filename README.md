@@ -18,7 +18,10 @@ So, you should easily find out how to use them for making your own console games
 In addition, you can always check out examples published in this repo to learn more details about implementing games based on this framework.
 
 The video tutorials on this topic are also available on my Youtube channel:  
-https://youtu.be/TW_OVQkmDXU
+
+[**Playlist: All Episodes**](https://www.youtube.com/playlist?list=PLiUmDJi4BtJvrUzgItTsGpjKpu9E4P7ty)  
+
+[**Episode #1: Introduction**](https://youtu.be/TW_OVQkmDXU)  
 
 
 ## Usage
