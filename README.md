@@ -163,32 +163,32 @@ MyGame.exe
 
 
 ## Image Converter Tool (How to display images and sprites at command prompt)
-To display an image in the Windows Console, it must be converted to a series of bytes, where each byte represent the nearest console color of a single pixel.
-So I made a special image conversion tool using **SFML** library, which does this dirty job.
-You can find it in the **ImageConv** folder.
+To display an image in the Windows Console, it must be converted to a series of bytes, where each byte represent the nearest console color of a single pixel.  
+So I made a special image conversion tool using **SFML** library, which does this dirty job.  
+You can find it in the **ImageConv** folder.  
 
-The executable file **Converter.exe** is compressed within the **Converter.zip** archive.
-You can also compile the source code **Converter.c** on your own by running the **make.bat** script.
-To compile it, you need a C++ compiler and the SFML library installed on your computer.
+The executable file **Converter.exe** is compressed within the **Converter.zip** archive.  
+You can also compile the source code **Converter.c** on your own by running the **make.bat** script.  
+To compile it, you need a C++ compiler and the SFML library installed on your computer.  
 
-To use the tool, put a .png image in the .\assets folder and run the following command:
-Converter.exe [folder] [filename]
+To use the tool, put a .png image in the .\assets folder and run the following command:  
+Converter.exe \[folder] \[folder]
 
 Example:
-Converter assets img_pallete
+Converter assets img_pallete  
 
-The tool will convert your .png image into two binary files with the .bin extension, which you can then use as a sprite in your Windows Console game.
+The tool will convert your .png image into two binary files with the .bin extension, which you can then use as a sprite in your Windows Console game.  
 
-You can also use the Converter tool directly from your project folders by running the **conv.bat** script.
+You can also use the Converter tool directly from your project folders by running the **conv.bat** script.  
 
 ```shell
 ..\ImageConv\Converter.exe %~dp0assets %1
 ```
 
-- this script runs the Console Image Converter tool directly from your project map
-- to use it, put a .png image (for instance **img_test.png**) in the **.\assets** folder of your project map
-- to run the tool, execute this command: **conv img_test**
-- after the conversion is complete, find two new binary files **img_test_1.bin** and **img_test_2.bin** in the **.\assets** folder, and use one of them in your game.
+- this script runs the Console Image Converter tool directly from your project map  
+- to use it, put a .png image (for instance **img_test.png**) in the **.\assets** folder of your project map  
+- to run the tool, execute this command: **conv img_test**  
+- after the conversion is complete, find two new binary files **img_test_1.bin** and **img_test_2.bin** in the **.\assets** folder, and use one of them in your game.  
 
 
 ## License notice
