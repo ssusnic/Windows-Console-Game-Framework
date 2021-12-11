@@ -173,7 +173,7 @@ To compile it, you need a C++ compiler and the SFML library installed on your co
 
 To use the tool, put a .png image in the .\assets folder and run the following command:  
 ```shell
-Converter.exe \[folder] \[folder]
+Converter.exe [folder] [folder]
 ```
 
 Example:  
@@ -181,7 +181,7 @@ Example:
 Converter assets img_pallete
 ```
 
-The tool will convert your **.png image** into two binary files with the **.bin** extension, which you can then use as a sprite in your Windows Console game.  
+The tool will convert your **.png** image into two binary files with the **.bin** extension, which you can then use as a sprite in your Windows Console game.  
 
 You can also use the Converter tool directly from your project folders by running the following **conv.bat** script:  
 
