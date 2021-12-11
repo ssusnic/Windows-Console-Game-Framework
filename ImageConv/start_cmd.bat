@@ -1,0 +1,1 @@
+cmd /k "set path=%path%;%~dp0..\..\..\..\Tools\MinGW\MinGW-7.3.0\bin\"

@@ -1,0 +1,1 @@
+g++ Converter.c -o Converter.exe  -DSFML_STATIC -static -I..\..\..\..\Tools\MinGW\SFML32\include -L..\..\..\..\Tools\MinGW\SFML32\lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lfreetype -lwinmm -lgdi32
