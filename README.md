@@ -173,7 +173,7 @@ To compile it, you need a C++ compiler and the SFML library installed on your co
 
 To use the tool, put a .png image in the .\assets folder and run the following command:  
 ```shell
-Converter.exe [folder] [folder]
+Converter.exe [folder] [filename]
 ```
 
 Example:  
