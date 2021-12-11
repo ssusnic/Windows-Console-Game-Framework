@@ -1,0 +1,1 @@
+..\ImageConv\Converter.exe %~dp0assets %1
