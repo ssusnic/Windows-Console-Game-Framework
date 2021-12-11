@@ -4,7 +4,7 @@
 # @File			Converter.c
 # @Description	Converts .png image to a binary format using SFML library.
 #				The converted image can be displayed in Windows Console
-#               by us the Consoler game framework.
+#               by using the Consoler game framework.
 #
 # @Usage		Converter.exe [folder] [filename]
 #
