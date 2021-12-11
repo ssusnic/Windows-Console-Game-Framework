@@ -1,0 +1,93 @@
+/**############################################################################
+#
+# @Program		DEMO #11
+# @File			Demo-11.cpp
+# @Description	Demo #11 made by using Consoler game framework.
+#
+# @Author		Srdjan Susnic
+# @Website		https://www.askforgametask.com
+# @Github		https://www.github.com/ssusnic
+# @Youtube		https://www.youtube.com/ssusnic
+#
+# Copyright (C) 2021 Ask For Game Task
+# 
+# This program is protected by GNU General Public License version 3.
+# If you use it, you must attribute me.
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+# 
+# You can view this license here:
+# https://opensource.org/licenses/GPL-3.0
+#
+#############################################################################*/
+
+// include interface of the Consoler framework
+#include "Consoler.h"
+
+/******************************************************************************
+*
+* Game class - inherits Consoler class.
+*
+******************************************************************************/
+
+class Game : public Consoler
+{
+private:
+	Sprite *fontLarge = new Sprite(BLACK);
+	Sprite *fontSmall = new Sprite(BLACK);
+	
+public:
+	//=========================================================================
+	// Inherits Consoler constructor.
+	//=========================================================================
+	using Consoler::Consoler;
+	
+	//=========================================================================
+	// Sets up the game objects.
+	//=========================================================================
+	void Setup() override
+	{
+		fontLarge->Load(L".\\assets\\fnt_7x9.bin", 7, 9);
+		fontSmall->Load(L".\\assets\\fnt_5x7.bin", 5, 7);
+	}
+	
+	//=========================================================================
+	// Updates the main game loop.
+	//=========================================================================	
+	void Update() override
+	{	
+		ClearScreen();
+		
+		int cx = GetCenterX(); // get the screen center
+
+		SetTextProperty(fontLarge, CENTER, 0, WHITE, BLUE);
+		DrawBitmapText(L" TEXT DEMO in Windows Console ", cx, 10);
+		
+		SetTextColor(BLACK, YELLOW);
+		DrawBitmapText(L" using bitmap fonts ", cx, 30);
+	}
+};
+
+/******************************************************************************
+*
+* Main program
+*
+******************************************************************************/
+
+int main(){
+	// initialize a new game
+	Game game(L"Consoler Demo", 320, 200, 1, 1, 60);
+	
+	// run the main game loop
+	game.Run();
+	
+	return 0;
+}
