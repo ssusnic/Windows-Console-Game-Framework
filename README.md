@@ -21,7 +21,8 @@ The video tutorials on this topic are also available on my Youtube channel:
 
 [**Playlist: All Episodes**](https://www.youtube.com/playlist?list=PLiUmDJi4BtJvrUzgItTsGpjKpu9E4P7ty)  
 
-[**Episode #1: Introduction**](https://youtu.be/TW_OVQkmDXU)  
+[**Episode #1: Basic Graphics**](https://youtu.be/TW_OVQkmDXU)  
+[**Episode #2: Images & Sprites**](https://youtu.be/gHzrvK6coAM)
 
 
 ## Usage
