@@ -163,8 +163,10 @@ MyGame.exe
 
 
 ## Image Converter Tool (How to display images and sprites at command prompt)
-To display an image in the Windows Console, it must be converted to a series of bytes, where each byte represent the nearest console color of a single pixel.  
+To display an image in the Windows Console, it must be converted to a series of bytes, where each byte represent the nearest console color of a single pixel. 
+
 So I made a special image conversion tool using **SFML** library, which does this dirty job.  
+
 You can find it in the **ImageConv** folder.  
 
 The executable file **Converter.exe** is compressed within the **Converter.zip** archive.  
@@ -172,10 +174,14 @@ You can also compile the source code **Converter.c** on your own by running the 
 To compile it, you need a C++ compiler and the SFML library installed on your computer.  
 
 To use the tool, put a .png image in the .\assets folder and run the following command:  
+```shell
 Converter.exe \[folder] \[folder]
+```
 
-Example:
-Converter assets img_pallete  
+Example:  
+```shell
+Converter assets img_pallete
+```
 
 The tool will convert your .png image into two binary files with the .bin extension, which you can then use as a sprite in your Windows Console game.  
 
